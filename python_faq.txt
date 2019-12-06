@@ -1,0 +1,60 @@
+1. Difference between list and tuples
+
+List are mutable and tuples are Immutable
+
+2. Genrators: Genrators are ways to implement Iterator
+
+	Genrator Function: When it needs to genrate a value, It does so with 
+			   the "yield keyword".
+
+	Eg. def simple_genrator():
+		yield 1
+		yield 2
+		yield 3
+
+3. Decorators: Decorators are poweerful tool iin python, allows programmer to modify
+	       the behavior of function or class.
+
+
+	       Decorators allow us to wrap another function in order to extend the 
+	       behavior of wrapped function, without permanently modifying it.
+
+		@gfg_decorators
+		def hello():
+			print("gfg")
+
+4. Lambda Function: Lambda is inline function in python also known as anonymous function.
+
+
+5. Packing and Unpacking: Whwn we don't know how many arguments need to be passed to a 
+			python function. we can use packing to pack all arguments.
+
+
+	*args  // To pack the list	* for tuples
+					** for dictiories
+
+	my_list = [1,2,3,4]
+	fun(my_list)
+
+6. "Self" Keyword : Self represent the instance of the class by using self we can access 
+		    att and methods of class.
+
+7. Namespace =: A name where it lives and can hooked for.
+
+8. Dictionary : A dictionary is a collection which is unordered , chageable and indexed.
+
+	thisdict = {
+		"brand" : "Ford",
+		"Model" : "Mustang",
+		"Year"	: 1964
+		}
+
+9. List comprehension and slicing: It's way to define and create list in python.
+
+
+10. PEP8: Coding convension , a set of recommendation to write more readable way.
+
+11. Pickling and unpickling: Pickle module accepts any object and converts it into 
+				string and dump it into a file using dump function.
+
+	python is merged into 'private heap space'.
